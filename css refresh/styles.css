@@ -1,0 +1,60 @@
+.red-text {
+  color: red;
+}
+
+h2 {
+  font-family: Lobster, monospace;
+}
+
+p {
+  font-size: 16px;
+  font-family: monospace;
+}
+
+.thick-green-border {
+  border-color: green;
+  border-width: 10px;
+  border-style: solid;
+  border-radius: 50%;
+}
+
+.smaller-image {
+  width: 100px;
+}
+.injected-text {
+  margin-bottom: -25px;
+  text-align: center;
+}
+
+.box {
+  border-style: solid;
+  border-color: black;
+  border-width: 5px;
+  text-align: center;
+}
+
+.yellow-box {
+  background-color: yellow;
+  padding: 10px;
+}
+
+.red-box {
+  background-color: crimson;
+  color: #fff;
+  padding: 20px;
+}
+
+.blue-box {
+  background-color: blue;
+  color: #fff;
+  padding: 10px;
+}
+
+/* browsers read CSS from top to bottom in order of their declaration. That means that, in the event of a conflict, the browser will use whichever CSS declaration came last. */
+/* id overides class  */
+/* inline styles take precedence over ids but they're gross lol */
+/* use !important, In many situations, you will use CSS libraries. These may accidentally override your own CSS. So when you absolutely need to be sure that an element has specific CSS, you can use !important */
+/* To create a CSS variable, you just need to give it a name with two hyphens in front of it and assign it a value like this:
+--penguin-skin: gray; */
+/* After you create your variable, you can assign its value to other CSS properties by referencing the name you gave it.
+background: var(--penguin-skin); can also attach a fallback value var(--penguin-skin, black) */
