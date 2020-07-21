@@ -58,3 +58,42 @@ p {
 --penguin-skin: gray; */
 /* After you create your variable, you can assign its value to other CSS properties by referencing the name you gave it.
 background: var(--penguin-skin); can also attach a fallback value var(--penguin-skin, black) */
+
+/* text-align: justify; causes all lines of text except the last line to meet the left and right edges of the line box.
+
+text-align: center; centers the text
+
+text-align: right; right-aligns the text
+
+And text-align: left; (the default) left-aligns the text.
+
+With the strong tag, the browser applies the CSS of font-weight: bold; to the element.
+With the u tag, the browser applies the CSS of text-decoration: underline; to the element.
+To emphasize text, you can use the em tag. This displays text as italicized, as the browser applies the CSS of font-style: italic; to the element.
+s tag, the browser applies the CSS of text-decoration: line-through;
+You can use the hr tag to add a horizontal line across the width of its containing element.
+
+The box-shadow property applies one or more shadows to an element.
+The box-shadow property takes values for
+
+offset-x (how far to push the shadow horizontally from the element),
+offset-y (how far to push the shadow vertically from the element),
+blur-radius,
+spread-radius and
+color, in that order.
+
+The text-transform property in CSS is used to change the appearance of text , uppercase, lowercase, capitalize, inital, inherit, none
+
+line-height property to change the height of each line in a block of text
+
+hover state using the :hover pseudo-class selector
+
+relative only changes flow of that element and not rest of elements, ex: relative with top:10px moves it down 10 
+The next option for the CSS position property is absolute, which locks the element in place relative to its parent container. Unlike the relative position, this removes the element from the normal flow of the document, so surrounding items ignore it.
+The next layout scheme that CSS offers is the fixed position, which is a type of absolute positioning that locks an element relative to the browser window.
+
+The next positioning tool does not actually use position, but sets the float property of an element. Floating elements are removed from the normal flow of a document and pushed to either the left or right of their containing parent element.
+
+z-index property can specify the order of how elements are stacked on top of one another.
+
+margin:auto to center a block element horizontally.  */
