@@ -97,3 +97,26 @@ The next positioning tool does not actually use position, but sets the float pro
 z-index property can specify the order of how elements are stacked on top of one another.
 
 margin:auto to center a block element horizontally.  */
+
+/* background: linear-gradient(gradient_direction, color 1, color 2, color 3, ...);
+
+To change the scale of an element, CSS has the transform property, along with its scale() function.
+p:hover {
+  transform: scale(2.1);
+}
+next function of the transform property is skewX(), which skews the selected element along its X (horizontal) axis by a given degree.
+
+@keyframes    animation-name  animation-duration
+#anim {
+  animation-name: colorful;
+  animation-duration: 3s;
+}
+
+@keyframes colorful {
+  0% {
+    background-color: blue;
+  }
+  100% {
+    background-color: yellow;
+  }
+} */
