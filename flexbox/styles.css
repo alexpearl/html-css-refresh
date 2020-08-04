@@ -1,0 +1,41 @@
+/* following flexbox zombies */
+
+set display:flex;
+
+flex-direction: 
+    leaving this blank is same as setting it to row
+    row-reverse reverses the direction
+    column makes the direction south/down
+    column-reverse reverses direction on column 
+
+justify-content: (main axis) x
+    default is flex-start
+    flex-end to position to the end / away from you
+    center positions them in the center  
+    space-between spaces them out to fill avaible space 
+    space-around spaces them so even the outer ones have space so all have equal spacing 
+
+align-items: (cross axis) y
+    flex-start aligns to the top when in a row, for columns it aligns to left 
+    flex-end aligns to the bottom, for columns it aligns to the right 
+    stretch aligns them streched out , also the default
+    center aligns center 
+
+align-self: (overrides align-items)
+    same values as align-items
+    often use 
+        .target:nth-of-type(number){
+            align-self: however that is different from the rest 
+        }
+
+flex-grow:
+    must be used on the targets themselves not the section 
+        .target{
+            flex-grow: 
+        }
+    
+    default set to 0 (won't grow unless told to)
+    1 makes both grow to fill available space at the same rate
+    dependant on flex-direction targets will grow vertically or horizontally 
+    2 will grow twice as quickly 
+    
